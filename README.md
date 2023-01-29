@@ -2,7 +2,6 @@
 - **Creational patterns**: These patterns provide various object creation mechanisms, which increase flexibility and code reuse.
 - **Structural patterns**: These patterns explains how to assemble objects and classes into bigger structures while keeping this structure flexible and efficient.
 - **Behavioral patterns**: These patterns are concerned with algorithms and assignments of responsibilities between objects.
-<<<<<<< HEAD
 # Catalog of patterns
 ## Creational patterns
 ### Singleton pattern
@@ -24,9 +23,15 @@
 **Abstract Factory** lets you produce objects of related families without specifying their concrete classes.
 #### Applicability
 - Use when your code need to work with various families of related products, but you may not know them beforehand or you want allow future extensibility.
-### Builder patterns
+### Builder pattern
 #### Intent
 **Builder** allows you to produce different types and representations of the object step by step using the same construction code.
 #### Applicability
 - Use when you to construct complex objects with many configuration.
 - Use when you want your code to be able to create different representations of some products.
+### Prototype pattern
+#### Intent
+**Prototype** lets you copy existing objects without making your code depend on their classes.
+#### Applicability
+- Use when your code shouldn't depend on concrete classes of objects that you need to copy.
+- Use when you want to reduce the number of subclasses that only differ in their initialization.
