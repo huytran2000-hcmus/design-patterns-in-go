@@ -21,6 +21,12 @@
 - Use when you want to reuse existing objects instead of rebuilding them(factory method + prototype, factory method + singleton).
 ### Abstract Factory Pattern
 #### Intent
-**Abstract Factory** let you produce objects of related families without specifying their concrete classes.
+**Abstract Factory** lets you produce objects of related families without specifying their concrete classes.
 #### Applicability
 - Use when your code need to work with various families of related products, but you may not know them beforehand or you want allow future extensibility.
+### Builder patterns
+#### Intent
+**Builder** allows you to produce different types and representations of the object step by step using the same construction code.
+#### Applicability
+- Use when you to construct complex objects with many configuration.
+- Use when you want your code to be able to create different representations of some products.
