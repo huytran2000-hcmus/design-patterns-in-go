@@ -35,3 +35,10 @@
 #### Applicability
 - Use when your code shouldn't depend on concrete classes of objects that you need to copy.
 - Use when you want to reduce the number of subclasses that only differ in their initialization.
+## Structural Design Patterns
+### Adapter Pattern
+#### Intent
+**Adapter** allows objects with incompatible interfaces to collaborate.
+#### Applicability
+- Use when you want to use some existing class, but its interface isn't compatible with your code.
+- Use when you want to reuse existing subclasses that lack some common missing functionality that can't be added to the superclass.
