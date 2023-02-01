@@ -43,7 +43,8 @@
 ## Structural Design Patterns
 ### Adapter Pattern
 #### Intent
-**Adapter** allows objects with incompatible interfaces to collaborate.
+**Adapter** allows objects with incompatible interfaces to collaborate.  
+![pattern image](/images/adapter_pattern.png 'adapter pattern')
 #### Applicability
 - Use when you want to use some existing class, but its interface isn't compatible with your code.
 - Use when you want to reuse existing subclasses that lack some common missing functionality that can't be added to the superclass.
