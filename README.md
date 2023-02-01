@@ -14,7 +14,8 @@
 - Use when need stricter control over global variables.
 ### Factory Method pattern
 #### Intent
-**Factory Method** provides an interface for creating objects in the superclass, but allows subclasses to decide which type of object that will be created.
+**Factory Method** provides an interface for creating objects in the superclass, but allows subclasses to decide which type of object that will be created.  
+![pattern image](/images/factory_method_pattern.png 'factory method pattern')
 #### Applicability
 - Use when you don't know beforehand the exact types and dependencies of the objects your code will work with.
 - Use when your want to provide users of your framework a way to extend its internal component.
