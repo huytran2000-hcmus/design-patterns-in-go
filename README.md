@@ -26,9 +26,10 @@
 ![pattern image](/images/abstract_factory_pattern.png 'abstract factory pattern')
 #### Applicability
 - Use when your code need to work with various families of related products, but you may not know them beforehand ,or you want to allow future extensibility.
-### Builder pattern
+### Builder Pattern
 #### Intent
-**Builder** allows you to produce different types and representations of the object step by step using the same construction code.
+**Builder** allows you to produce different types and representations of the object step by step using the same construction code.  
+![pattern image](/images/builder_pattern.png 'builder pattern')
 #### Applicability
 - Use when you to construct complex objects with many configuration.
 - Use when you want your code to be able to create different representations of some products.
