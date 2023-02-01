@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/huytran2000-hcmus/design-pattern-in-golang/creational/abstractfactory/sportswear"
+	"github.com/huytran2000-hcmus/design-patterns-in-go/creational/abstractfactory/sportswear"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/huytran2000-hcmus/design-pattern-in-golang/creational/prototype/file"
+	"github.com/huytran2000-hcmus/design-patterns-in-go/creational/prototype/file"
 )
 
 func main() {

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/huytran2000-hcmus/design-pattern-in-golang/structural/adapter/daikin"
-	"github.com/huytran2000-hcmus/design-pattern-in-golang/structural/adapter/daikin/adapter"
-	"github.com/huytran2000-hcmus/design-pattern-in-golang/structural/adapter/panasonic"
+	"github.com/huytran2000-hcmus/design-patterns-in-go/structural/adapter/daikin"
+	"github.com/huytran2000-hcmus/design-patterns-in-go/structural/adapter/daikin/adapter"
+	"github.com/huytran2000-hcmus/design-patterns-in-go/structural/adapter/panasonic"
 )
 
 func main() {
