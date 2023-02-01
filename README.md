@@ -33,9 +33,10 @@
 #### Applicability
 - Use when you to construct complex objects with many configuration.
 - Use when you want your code to be able to create different representations of some products.
-### Prototype pattern
+### Prototype Pattern
 #### Intent
-**Prototype** lets you copy existing objects without making your code depend on their classes.
+**Prototype** lets you copy existing objects without making your code depend on their classes.  
+![pattern image](/images/protype_pattern.png 'prototype pattern')
 #### Applicability
 - Use when your code shouldn't depend on concrete classes of objects that you need to copy.
 - Use when you want to reduce the number of subclasses that only differ in their initialization.
