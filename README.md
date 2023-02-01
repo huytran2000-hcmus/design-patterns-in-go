@@ -12,7 +12,7 @@
 - Use when a class should have a single instance that get shared with all clients.
 - Use when a resource is expensive to create and can be shared within the program like database connection, ssh connection,...
 - Use when need stricter control over global variables.
-### Factory Method pattern
+### Factory Method Pattern
 #### Intent
 **Factory Method** provides an interface for creating objects in the superclass, but allows subclasses to decide which type of object that will be created.  
 ![pattern image](/images/factory_method_pattern.png 'factory method pattern')
@@ -22,9 +22,10 @@
 - Use when you want to reuse existing objects instead of rebuilding them(factory method + prototype, factory method + singleton).
 ### Abstract Factory Pattern
 #### Intent
-**Abstract Factory** lets you produce objects of related families without specifying their concrete classes.
+**Abstract Factory** lets you produce objects of related families without specifying their concrete classes.  
+![pattern image](/images/abstract_factory_pattern.png 'abstract factory pattern')
 #### Applicability
-- Use when your code need to work with various families of related products, but you may not know them beforehand or you want allow future extensibility.
+- Use when your code need to work with various families of related products, but you may not know them beforehand ,or you want to allow future extensibility.
 ### Builder pattern
 #### Intent
 **Builder** allows you to produce different types and representations of the object step by step using the same construction code.
