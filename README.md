@@ -48,3 +48,10 @@
 #### Applicability
 - Use when you want to use some existing class, but its interface isn't compatible with your code.
 - Use when you want to reuse existing subclasses that lack some common missing functionality that can't be added to the superclass.
+### Bridge Pattern
+#### Intent
+**Bridge** lets you split a monolith class or a collection of closely related classes into two separate hierarchies - abstraction and implementation - which can be developed independently of each other.
+#### Applicability
+- Use when you want to break up and organize a big class that has several variant of some functionality.
+- Use when you to extend a class in several orthogonal (independent) dimensions.
+- Use when you want to switch implementations at runtime(strategy pattern).
