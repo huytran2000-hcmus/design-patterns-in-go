@@ -56,3 +56,9 @@
 - Use when you want to break up and organize a big class that has several variant of some functionality.
 - Use when you to extend a class in several orthogonal (independent) dimensions.
 - Use when you want to switch implementations at runtime(strategy pattern).
+### Decorator Pattern
+#### Intent
+**Decorator** lets you attach new behaviors to objects by placing them inside wrapper objects.
+#### Applicability
+- Use when you want to extend behaviors of an object at runtime with breaking client code.
+- Use when it's awkward or not possible to add new behaviors using inheritance.
